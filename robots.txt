@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Optional: disallow GitHub-specific files that aren’t real pages
+Disallow: /LICENSE
+Disallow: /README.md
+Disallow: /google*.html
+
+# Point Google (and other crawlers) to your sitemap
+Sitemap: https://arslanayub.github.io/SEO-Expert/sitemap.xml
